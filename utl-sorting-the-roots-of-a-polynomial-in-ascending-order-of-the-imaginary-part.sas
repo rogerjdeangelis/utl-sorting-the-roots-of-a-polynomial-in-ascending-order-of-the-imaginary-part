@@ -17,21 +17,22 @@ INPUT
 
    I want the roots of this polnonmial in ascending order by the imaginary part
 
-   0 = 5*x**4 + 4*x**3 + 3*x**2 + 2*x**2 + 1
+   0 = 1 +  2x +  3x**2 + 4x**3 + 5x**4
 
-   %let coef=%str(5, 4, 3, 2, 1);
+
+   %let coef=%str(1, 2, 3, 4, 5);
 
 
 EXAMPLE OUTPUT
 --------------
  WORK.WANT total obs=4
 
-  Obs        LOW2HI           |  RULES
-                              |
-   1    0.287815  -1.416093i  |  In acsending order by the imaginary part
-   2   -1.287815  -0.857897i  |
-   3   -1.287815  +0.857897i  |
-   4    0.287815  +1.416093i  |
+  Obs         LOW2HI           |  RULES
+                               |
+   1    0.1378323 -0.6781544i  |  In acsending order by the imaginary part
+   2   -0.5378323 -0.3582847i  |
+   3   -0.5378323 +0.3582847i  |
+   4    0.1378323 +0.6781544i  |
 
 
 PROCESS
